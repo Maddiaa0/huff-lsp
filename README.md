@@ -12,13 +12,6 @@ A language server for Huff. I've got some free time so why not
 
 ## Features
 
-- [x] InlayHint for LiteralType
-      ![inlay hint](https://user-images.githubusercontent.com/17974631/156926412-c3823dac-664e-430e-96c1-c003a86eabb2.gif)
-
-- [x] semantic token  
-       make sure your semantic token is enabled, you could enable your `semantic token` by
-      adding this line to your `settings.json`
-
 ```json
 {
   "editor.semanticHighlighting.enabled": true
@@ -28,6 +21,12 @@ A language server for Huff. I've got some free time so why not
 ## TODO:
 
 - [x] Code Completion
+- [ ] InlayHint for stack height at current line
+
+- [ ] semantic token  
+       make sure your semantic token is enabled, you could enable your `semantic token` by
+      adding this line to your `settings.json`
+
 - [ ] Macro Renaming
 - [ ] Fault tolerant syntactic error diagnostics
 - [ ] Go to definition - for nested file types

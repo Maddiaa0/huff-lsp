@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A language server for Huff. I've got some free time so why not
+A language server for Huff. (finally)
 
 ## Development
 

@@ -1,0 +1,11 @@
+
+
+#define macro MAIN() = takes(0) returns(0) {
+    0x1 0x2 0x3
+    ANOTHER_MACRO()
+}
+
+
+#define macro ANOTHER_MACRO() = takes(0) returns(0) {
+    0x4 0x5 0x6
+}

@@ -1,0 +1,25 @@
+[package]
+name = "huff-language-server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+env_logger = "0.9.1"
+ropey = "1.3.2"
+serde_json = "1.0.78"
+tokio = { version = "1.17.0", features = ["full"] }
+tower-lsp = { version = "0.17.0"}
+serde = { version = "1.0", features = ["derive"] }
+dashmap = "5.1.0"
+log = "0.4.14"
+im-rc = "15.0.0"
+huff_parser = { git = "https://github.com/huff-language/huff-rs", branch = "stage" }
+huff_lexer = { git = "https://github.com/huff-language/huff-rs", branch = "stage" }
+huff_utils = { git = "https://github.com/huff-language/huff-rs", branch = "stage" }
+
+
+
+[debug]
+incremental = true
